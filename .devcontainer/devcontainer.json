@@ -1,0 +1,9 @@
+{
+	"name": "devcontainer-nuxt",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+	"workspaceFolder": "/workspaces/vue-todo/",
+	"shutdownAction": "stopContainer",
+	"remoteUser": "node",
+	"forwardPorts": [8080],
+	"postCreateCommand": "/bin/sh .devcontainer/postCreateCommand.sh"
+}
